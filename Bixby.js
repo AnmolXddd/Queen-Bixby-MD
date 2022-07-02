@@ -200,11 +200,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` SARKARI BOTTO `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎  `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` SARKARI BOTTO  `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -2040,7 +2040,7 @@ break
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `⚜️ No.  : ${no++}\n🎥.  Type : ${i.type}\n📽.️  Video ID : ${i.videoId}\n📼.  Title : ${i.title}\n📱.  Views : ${i.views}\n✏.  Duration : ${i.timestamp}\n📰.  Uploaded On : ${i.ago}\n🔏.  Author : ${i.author.name}\n📎 Url : ${i.url}\n\n───☕ 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 - ᴇᴅɪᴛɪᴏɴ ☕───\n\n`
+                    teks += `⚜️ No.  : ${no++}\n🎥.  Type : ${i.type}\n📽.️  Video ID : ${i.videoId}\n📼.  Title : ${i.title}\n📱.  Views : ${i.views}\n✏.  Duration : ${i.timestamp}\n📰.  Uploaded On : ${i.ago}\n🔏.  Author : ${i.author.name}\n📎 Url : ${i.url}\n\n───☕ SARKARI BOTTO - ᴇᴅɪᴛɪᴏɴ ☕───\n\n`
                 }
                 GojoMdNx.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -2092,7 +2092,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `╭─ ☕ 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 - ᴇᴅɪᴛɪᴏɴ ☕ ─
+                    caption: `╭─ ☕ SARKARI BOTTO - ᴇᴅɪᴛɪᴏɴ ☕ ─
 │⚜️. Title : ${anu.title}
 │📰. ID : ${anu.videoId}
 │💡. Duration : ${anu.timestamp}
@@ -2121,7 +2121,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `── ☕ 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 -ᴍᴅ ʙᴏᴛ ☕ ──            
+                    caption: `── ☕ SARKARI BOTTO -ᴍᴅ ʙᴏᴛ ☕ ──            
 ⚜️ Title : ${anu.title}
 ⚜️ Duration : ${anu.timestamp}
 ⚜️ Viewes : ${anu.views}
@@ -3339,7 +3339,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `╭─ ☕ 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎  ☕ ──\n\n │🔥💫.  Bot Name : ${global.botname}
+                    description: `╭─ ☕ SARKARI BOTTO  ☕ ──\n\n │🔥💫.  Bot Name : ${global.botname}
 \n│🔥💫. Owner Name : ${global.ownername}
 \n│🔥💫.  Plat Form : ${os.platform()}
 \n│🔥💫.  Runtime : ${runtime(process.uptime())}\n\n╰──────────────────
@@ -3856,7 +3856,7 @@ break
                 ]
                 let buttonMessage = {
                     image: fs.readFileSync('./BixbyMedia/ttg.jpg'),
-                    caption: `╭─ ☕ 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 - ᴇᴅɪᴛɪᴏɴ ☕ ─ 
+                    caption: `╭─ ☕ SARKARI BOTTO - ᴇᴅɪᴛɪᴏɴ ☕ ─ 
 │🔥💫. DEVELOPER : DARK ALPHA
 │🔥💫. RUNTIME : ${runtime(process.uptime())}
 │🔥💫. BOT NAME : ${global.botname}
