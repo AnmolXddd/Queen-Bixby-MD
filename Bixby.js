@@ -200,11 +200,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://telegra.ph/file/33d3f966368a28e47e183.png"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎 `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎  `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://telegra.ph/file/33d3f966368a28e47e183.png"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` 𝐵𝓁𝒶𝒸𝓀 𝒜𝓃ᗝ𝓃𝓎  `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./BixbyMedia/djt.jpg`),"sourceUrl": "https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -3455,7 +3455,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/33d3f966368a28e47e183.png' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://drive.google.com/file/d/1REECSS4xs9b0P10cLs2-4ywnyQvHKD5C/view?usp=sharing' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
